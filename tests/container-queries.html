@@ -126,6 +126,8 @@
   }
 </style>
 
+<h1>Container Queries Demo</h1>
+
 <h2>Width Queries</h2>
 
 <h3>min-width</h3>
@@ -256,7 +258,7 @@
         }
       `)}
 
-      /* Max-height in px  */
+      /* Max-height in px */
       ${containerQuery('.maxheight', el => el.offsetHeight <= 200, `
         .maxheight {
           background: greenyellow;
